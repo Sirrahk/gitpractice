@@ -5,3 +5,8 @@ const myHTML = `<ul> List
 </ul>
 `
 document.innerhtml = myHTML;
+
+function LetsGo (name, age, food) {
+    console.log("Lets do it " ${name})
+}
+
