@@ -1,12 +1,13 @@
 const myHTML = `<ul> List 
 <li> One </li>
 <li> Two </li>
-<li> Three </li> 
+<li> four </li> 
+<li> seventeen </li>
 </ul>
 `
-document.innerhtml = myHTML;
 
 function LetsGo (name, age, food) {
     console.log("Lets do it " ${name})
 }
 
+document.innerHTML = myHTML;
